@@ -59,7 +59,7 @@ export default function Catalog() {
                       <img src={product.image} alt={product.title} className="img" />
                     </div>
                     <p className="products__title">{product.title}</p>
-                    <p className="products__price">${product.price}</p> {/* Добавлен знак валюты */}
+                    <p className="products__price">${product.price}</p>
                     <div className="products__bottom">
                       <p className="products__stock">
                         Stock: <span className="bold">{product.stock}</span>
